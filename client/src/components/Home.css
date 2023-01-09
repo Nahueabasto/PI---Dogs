@@ -1,0 +1,83 @@
+.CardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.homeDiv{
+    display: inline-block;
+    background-size: cover;
+    
+}
+
+.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+.filterBy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 500px;
+    background-color: azure;
+    border: 1px solid;
+}
+
+.filterBy:hover{
+    background-color: azure;
+}
+
+.filterTemps{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 500px;
+    background-color: azure;
+    border: 1px solid;
+    transform: translateY(2px);
+}
+
+.filterTemps:hover{
+    background-color: azure;
+}
+
+.filterBreeds{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 500px;
+    transform: translateY(-24px);
+    background-color: azure;
+    border: 1px solid;
+}
+
+.filterBreeds:hover{
+    background-color: azure;
+}
+
+.createButton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 500px;
+    background-color: #35bcbf;
+    transform: translateY(20px);
+    border: 1px solid #0eb2b4;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+
+.createButton:hover{
+    background-color: #baf2f5;
+    color:#263849;
+    border: 1px solid #d0f5f7;
+}
+
+.refBtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #063636;
+    cursor: pointer;
+    border: 1px solid #063636;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.refBtn:hover{
+    background-color: #baf2f5;
+    color:#263849;
+    border: 1px solid #d0f5f7;
+}

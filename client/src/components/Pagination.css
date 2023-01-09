@@ -1,0 +1,21 @@
+.btnPag {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .btnPag button {
+    border-radius: 15px;
+    background-color: rgb(98, 116, 116);
+    color: #263849;
+    border-radius: .3em;
+    border: 1px solid;
+  }
+
+  .btnPag button:hover {
+    color: rgb(84, 114, 114);
+    background-color: #0a2e2e;
+
+  }
